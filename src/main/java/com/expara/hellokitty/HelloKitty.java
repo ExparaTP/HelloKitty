@@ -7,11 +7,11 @@ public class HelloKitty {
 		String s;
 
 		//Prints "Hello Kitty" in the terminal window.
-		System.out.println("Hello Kitty");
+		System.out.println("Hi! My name is Hello Kitty");
 		
 		//Input the animal
 		Scanner in = new Scanner(System.in);
-		System.out.println("Enter Animal");
+		System.out.println("What is your name?");
 		s = in.nextLine();
 		System.out.println("Hello " +s);
 
